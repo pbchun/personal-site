@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.1/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-4KIc2mnKfAA7VjirNLk2Sqp7jxFNq1q8+FhYGxhW2l52lt4HJsfksL+hjswHfbl/"
+        crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="collapse navbar-collapse" id="navbarColor02">
+              <ul class="navbar-nav mr-auto" id="navbarUl">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="/index.html">Home
+                          <span class="sr-only">(current)</span>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/aboutMe.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/portfolio.html">Portfolio</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+
+  <section class="projects">
+      <h4>Projects</h4>
+
+      <div class="cards">
+          <h3 class="card-header">Bark Park</h3>
+          <img style="height: 300px; display: block; margin: auto; margin-top: 2vh" src="./Images/BarkParkImg.png"
+              alt="Card image">
+          <div class="card-body">
+              <p class="card-text">Bark Park is a mobile app that allows users to see which dogs are currently at their favorite dog park. Users can see a list of dog parks and sign-in and out of a dog park. Users can also create a profile for each of their dogs and add their favorite dog park if it's not already on the list. This mobile app was created using React Native for the front-end, and Express, Knex.js, PostgreSQL, and Node.js for the back-end. This project was part of my capstone project while at Galvanize and I am currently working on it so that it will be a fully functioning app.</p>
+          </div>
+          <div class="card-link">
+              <a href="https://github.com/pbchun/bark-park" class="card-link">GitHub link</a>
+          </div>
+      </div>
+
+      <div class="cards">
+          <h3 class="card-header">LiveWire</h3>
+          <img style="height: 300px; display: block; margin: auto; margin-top: 2vh" src="./Images/LiveWireImg.png"
+              alt="Card image">
+          <div class="card-body">
+              <p class="card-text">Livewire is a web app that allows venue and event promoters to list available dates for artists to request to book. The user can also see a list of upcoming events by event venue. This project was created as part of a group project while at Galvanize using Vue.js for the front-end, and Express, Knex.js, PostgreSQL, and Node.js for the back-end.</p>
+          </div>
+          <div class="card-link">
+              <a href="https://livewire-f9c1f.firebaseapp.com/#/HighDive" class="card-link">LIVEWIRE</a>
+              <a href="https://github.com/pbchun/livewire" class="card-link">GitHub link</a>
+          </div>
+      </div>
+
+      <div class="cards">
+          <h3 class="card-header">Foreign Currency Exhange Rate App</h3>
+          <img style="height: 350px; display: block; margin: auto; margin-top: 2vh" src="./Images/WhatsYourDollarWorthImg.png"
+              alt="Card image">
+          <div class="card-body">
+              <p class="card-text">This web app allows the user to see the most recent foreign currency exchange rate compared to $1 (USD). The user can then select any date since 1999 to compare how the rate has changed. The exchange rates are provided by the European Central Bank from the exchangeratesapi.io API. This app was created using HTML, CSS, and JavaScript.</p>
+          </div>
+          <div class="card-link">
+              <a href="https://currency-exchange-rate-app.firebaseapp.com/" class="card-link">What's Your Dollar Worth</a>
+              <a href="https://github.com/pbchun/Exchange-Rate-App-Project" class="card-link">GitHub link</a>
+          </div>
+      </div>
+
+      <div class="cards">
+              <h3 class="card-header">Trip Budget Tracker App</h3>
+              <img style="height: 400px; display: block; margin: auto; margin-top: 2vh" src="./Images/TripBudgetAppImg.png"
+                  alt="Card image">
+              <div class="card-body">
+                  <p class="card-text">This web app allows users to keep track of their budget for upcoming trips or vacations. The user can add a new trip and edit their trip budget as it changes. This app was created using React for the front-end and Express, Knex.js, PostgreSQL, and Node.js for the back-end.</p>
+              </div>
+              <div class="card-link">
+                  <a href="https://trip-budget-tracker-p3.firebaseapp.com/" class="card-link">Trip Budget Tracker</a>
+                  <a href="https://github.com/pbchun/p3-travel-budget-planner" class="card-link">GitHub link</a>
+              </div>
+          </div>
+  </section>
+
+
+  <footer class="portfolio-footer">
+      <small>&copy 2018. Peter Chun</small>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+      crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+      crossorigin="anonymous"></script>
+  
+</body>
+</html>
